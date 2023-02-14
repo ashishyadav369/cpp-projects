@@ -68,21 +68,4 @@ bool game_logic() {
 
     return false;
 
-    // if(key == UP) {
-    //     x--;
-
-    // } else if(key == DOWN ) {
-    //     x++;
-
-    // } if(key == RIGHT) {
-    //     y++;
-
-    // } else if(key == LEFT) {
-    //     y--;
-    // }
-    // move(x,y);
-    // addch('#');
-    // i++;
-    // if(i > 20) i = 0;
-
 }

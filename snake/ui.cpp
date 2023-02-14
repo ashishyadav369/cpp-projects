@@ -5,7 +5,7 @@ char border_character = (char)254;
 
 void init_ui() {
     initscr();
-    nodelay(stdscr, TRUE); // It tops getch to block any input
+    nodelay(stdscr, TRUE); // It stops getch to block any input
     noecho();
     curs_set(0);
 }
@@ -34,8 +34,4 @@ void paint_border() {
         addch(border_character);
 
     }
-
-    // move(10,10);
-    // addch('#');
-    // getch();
 }
